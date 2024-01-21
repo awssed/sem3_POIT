@@ -1,0 +1,48 @@
+﻿Сборка начата 02.11.2023 18:39:35.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\Lab5(echo_request_for_TCP_IP_diagnostics).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Lab5(ech.90f62e34.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt echo_request.cpp
+         echo_request.cpp
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(13,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(173,1): message : см. предыдущее определение "IP_DEST_NET_UNREACHABLE"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(14,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(174,1): message : см. предыдущее определение "IP_DEST_HOST_UNREACHABLE"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(15,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(175,1): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(16,1): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(176,1): message : см. предыдущее определение "IP_DEST_PORT_UNREACHABLE"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(17,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(181,1): message : см. предыдущее определение "IP_REQ_TIMED_OUT"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(18,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(182,1): message : см. предыдущее определение "IP_BAD_REQ"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(19,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(183,1): message : см. предыдущее определение "IP_BAD_ROUTE"
+     1>D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(20,1): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(184,1): message : см. предыдущее определение "IP_TTL_EXPIRED_TRANSIT"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\x64\Debug\Lab5(echo_request_for_TCP_IP_diagnostics).exe" /INCREMENTAL /ILK:"x64\Debug\Lab5(echo_request_for_TCP_IP_diagnostics).ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\x64\Debug\Lab5(echo_request_for_TCP_IP_diagnostics).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\x64\Debug\Lab5(echo_request_for_TCP_IP_diagnostics).lib" /MACHINE:X64 x64\Debug\echo_request.obj
+         Lab5(echo_request_for_TCP_IP_diagnostics).vcxproj -> D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\x64\Debug\Lab5(echo_request_for_TCP_IP_diagnostics).exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab5(ech.90f62e34.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab5(ech.90f62e34.tlog\Lab5(echo_request_for_TCP_IP_diagnostics).lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\Lab5(echo_request_for_TCP_IP_diagnostics).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\Lab5(echo_request_for_TCP_IP_diagnostics).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(13,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(14,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(15,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(16,1): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(17,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(18,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(19,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+         D:\Учёба\3сем\КСИС\Lab5(echo_request_for_TCP_IP_diagnostics)\echo_request.cpp(20,1): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+
+    Предупреждений: 8
+    Ошибок: 0
+
+Прошло времени 00:00:01.28
